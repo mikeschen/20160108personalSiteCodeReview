@@ -1,0 +1,13 @@
+ul.nav a:hover { 
+  color: #ff0000 !important; 
+}
+
+ul.nav a { 
+  color: #b30000 !important; 
+}
+
+.navbar-inverse .navbar-brand:hover, 
+.navbar-inverse .navbar-brand:focus {
+  background-color: transparent;
+  color: #999999;
+}
