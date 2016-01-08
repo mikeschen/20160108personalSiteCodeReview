@@ -1,4 +1,3 @@
-
 ul.nav a:hover { 
   color: #ff0000 !important; 
 }
@@ -25,10 +24,6 @@ h2 {
    width: 100%; 
 }
 
-a:h2 {
-	color: white;
-}
-
 .abouttext {
 	margin-left: 25px;
 	font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
@@ -39,12 +34,6 @@ img.smallz {
   float:left; 
   margin: 5px 20px 5px 2px;
   padding-left: 25px;
-}
-
-@media only screen and (max-width: 768px) {
-    img.smallz {
-    	display: none;
-    }
 }
 
 .footer {
@@ -74,3 +63,11 @@ span {
     text-align: center;
 }
 
+@media only screen and (max-width: 768px) {
+    img.smallz {
+    	display: none;
+    }
+    h2 {
+    	font-size: 18px;
+    }
+}
